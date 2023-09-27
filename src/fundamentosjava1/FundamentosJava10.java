@@ -16,7 +16,7 @@ public class FundamentosJava10 {
      */
  public static void main(String[] args) {
         
-        System.out.println("CONDICIONALES");
+     /* System.out.println("CONDICIONALES");
         
         int edad = 38;
         
@@ -27,5 +27,48 @@ public class FundamentosJava10 {
         } else {
             System.out.println("No es mayor");
         }
-    }
+        System.out.println("BUCLE FOR ");
+        
+        //EL BUCLE FOR SE UTILIZA CUANDO SABEMOS DE ANTEMANO CUANTAS VECES
+        //QUEREMOS QUE SE EJECUTE EL CODIGO
+        /*
+        for  (inicializacion; condicion;actualizacion) {
+            bloque de codigo
+        }
+        */
+        for (int i = 0; i < 10; i++) {
+            System.out.println("numero : "+i);
+         
+ // ESTUDIAR ESTRUCTURA DE ARREGLO EN JAVA Y COMO ACCEDER A SUS POSICIONES
+           System.out.println("---------") ; 
+            int [] numeros = {1,2,3,4,5 };
+           for (int j = 0 ;j < numeros.length; j++) {
+               System.out.println("Elemento" + j + " : "+numeros [j]);
+               
+        }
+ 
+            //EL BUCLE WHILE SE UTILIZA CUANDO SABEMOS CUANTAS VEDCES DEBE EJEJCUTARRSE EL COGIGO,DEPENDE DE  
+            //UNA CONDICION PARA DETENERSE
+            System.out.println("BUCLE WHILE");
+            int contador =1;
+            while (contador < numeros.length )  {
+                System.out.println("numero : " + contador) ;
+                contador++;
+            }
+            
+     }
+        
+        
+
+ 
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ 
 }
